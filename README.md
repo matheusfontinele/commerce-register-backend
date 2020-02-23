@@ -18,7 +18,7 @@ A arquitetura do projeto backend consiste 8 entidades principais. São elas:
 # Running Commerce Register Backend
 Por utilizar Discovery, devemos o subir primeiro. Assim, os demais serviços poderão se inscrever no tal, e o Gateway os poderá encontrá-los. 
 
-## Ordem de _start_ das aplicações 
+# Ordem de _start_ das aplicações 
 * Discovery
 * Gateway
 * Address Service
