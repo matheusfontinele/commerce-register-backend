@@ -11,7 +11,7 @@ import java.util.Collection;
 
 @Getter
 @Setter
-	@NoArgsConstructor
+@NoArgsConstructor
 @AllArgsConstructor
 @Entity(name = "COMMERCE_TBL")
 public class Commerce {

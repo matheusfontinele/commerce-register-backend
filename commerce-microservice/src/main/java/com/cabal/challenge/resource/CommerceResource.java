@@ -45,7 +45,8 @@ public class CommerceResource {
 		return commerceList;
 	}
 
-	private Function<Commerce, Commerce> getCategoryObjectFunction() {
+	@VisibleForTesting
+	Function<Commerce, Commerce> getCategoryObjectFunction() {
 		return commerce -> {
 			final Long commerceId = commerce.getId();
 
