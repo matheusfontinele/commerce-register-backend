@@ -1,0 +1,24 @@
+spring:
+  application:
+    name: gateway-service
+  cloud:
+    gateway:
+      routes:
+        - id : emailRoute
+          uri : lb://email-service
+          predicates :
+            - Path=/emails/**
+        - id: phoneRoute
+          uri : lb://phone-service
+          predicates :
+            - Path=/phoneNumbers/**
+        - id: addressRoute
+          uri : lb://address-service
+          predicates :
+            - Path=/addresses/**
+        - id: commerceRoute
+          uri : lb://commerce-service
+          predicates :
+            - Path=/commerces/**
+server:
+  port: 9090
