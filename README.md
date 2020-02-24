@@ -32,18 +32,18 @@ A cobertura de testes é vista através do Sonar. Fora realizado o download do S
 Seguem evidências. 
 
 ### ADDRESS_MICROSERVICE
- ![Address Microservice Sonarqube](./readme_images/address-microservice-sonarqube.png)
+ ![Address Microservice Sonarqube](./readme_images/address-microservice-sonarqube.PNG)
 
 
 ### COMMERCE_MICROSERVICE
- ![Commerce Microservice Sonarqube](./readme_images/commerce-microservice-sonarqube.png)
+ ![Commerce Microservice Sonarqube](./readme_images/commerce-microservice-sonarqube.PNG)
 
 
 ### EMAIL_MICROSERVICE
- ![Email Microservice Sonarqube](./readme_images/email-microservice-sonarqube.png)
+ ![Email Microservice Sonarqube](./readme_images/email-microservice-sonarqube.PNG)
 
  ### PHONE_MICROSERVICE
- ![Phone Microservice Sonarqube](./readme_images/phone-microservice-sonarqube.png)
+ ![Phone Microservice Sonarqube](./readme_images/phone-microservice-sonarqube.PNG)
 
 # Palavras Chave
 - Gateway
