@@ -30,10 +30,23 @@ Por utilizar Discovery, devemos o subir primeiro. Assim, os demais serviços pod
 A cobertura de testes é vista através do Sonar. Fora realizado o download do Sonarqube Server (disponível [aqui]()) . É utilizado o plugin Jacoco, o qual gera a porcentagem de cobertura de testes. 
 
 Seguem evidências. 
-- Por evidências aqui 
+
+### ADDRESS_MICROSERVICE
+ ![Address Microservice Sonarqube](./readme_images/address-microservice-sonarqube.png)
+
+
+### COMMERCE_MICROSERVICE
+ ![Commerce Microservice Sonarqube](./readme_images/commerce-microservice-sonarqube.png)
+
+
+### EMAIL_MICROSERVICE
+ ![Email Microservice Sonarqube](./readme_images/email-microservice-sonarqube.png)
+
+ ### PHONE_MICROSERVICE
+ ![Phone Microservice Sonarqube](./readme_images/phone-microservice-sonarqube.png)
 
 # Palavras Chave
-- gateway
+- Gateway
 - Spring cloud
 - Feign
 - Discovery 
