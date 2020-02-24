@@ -1,4 +1,4 @@
-# Architecture
+# Arquitetura
 A arquitetura do projeto backend consiste 8 entidades principais. São elas:
 * [address-microservice](https://github.com/filypsdias/commerce-register-backend/tree/master/address-microservice): (Microserviço responsável pelo cadastro de endereços)
 * [commerce-microservices](https://github.com/filypsdias/commerce-register-backend/tree/master/commerce-microservice): (Microserviço responsável pelo cadastro de comércio) 
@@ -15,7 +15,7 @@ A arquitetura do projeto backend consiste 8 entidades principais. São elas:
 3. Os microserviços se conectam ao Discovery (usando Spring Cloud Eureka Client), e podem ser consumidos pelo Gateway
 
 
-# Running Commerce Register Backend
+# Como Subir Commerce Register Backend
 Por utilizar Discovery, devemos o subir primeiro. Assim, os demais serviços poderão se inscrever no tal, e o Gateway os poderá encontrá-los. 
 
 # Ordem de _start_ das aplicações 
